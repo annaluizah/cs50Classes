@@ -33,9 +33,9 @@ int main(void)
 
     int sum1 = card1 + card2 + card3 + card4 + card5 + card6 + card7 + card8;
 
-    int card9, card10, card11, card12, card13, card14, card15, card16;
+    int card09, card10, card11, card12, card13, card14, card15, card16;
 
-    card9 = (cc_number % 10);
+    card09 = (cc_number % 10);
     card10 = ((cc_number % 1000) / 100);
     card11 = ((cc_number % 100000) / 10000);
     card12 = ((cc_number % 10000000) / 1000000);
@@ -44,7 +44,7 @@ int main(void)
     card15 = ((cc_number % 10000000000000) / 1000000000000);
     card16 = ((cc_number % 1000000000000000) / 100000000000000);
 
-    int sum2 = card9 + card10 + card11 + card12 + card13 + card14 + card15 + card16;
+    int sum2 = card09 + card10 + card11 + card12 + card13 + card14 + card15 + card16;
     int sum3 = sum1 + sum2;
 
     int length = 0;
