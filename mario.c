@@ -6,7 +6,7 @@ int main(void)
     int height, row, column, space;
     do
     {
-        height = get_int("Height: ");
+        height = get_int("Height: \n");
     }
     while (height < 1 || height > 8);
 
